@@ -1,0 +1,36 @@
+li{
+
+	border: 2px solid orange;
+}
+
+ /*the upper line of code applies to the hole li tag and the lower line of code  applies to the id special tag */
+
+#special
+{
+	background: pink;
+}
+
+.completed
+{
+text-decoration: line-through;
+}
+/*.class works the same like an special element tag , nut allows us to use it multiple time on multiple tags #
+*/
+
+/*to refere only to one elemnet ( ex. li ) we need  to create an ID (special tag ) that help us customize only that element(li) 
+it can be only one element that matches that id name per page */
+
+
+
+
+
+
+
+
+
+
+
+
+/*selector{
+	propriety: value;
+}*/

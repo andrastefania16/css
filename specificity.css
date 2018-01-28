@@ -1,0 +1,37 @@
+
+/*inheretance = if we set a propriety on a parent it can also affect the child( ex body{color:red;} will also affect the p tag , ul and li )*/
+/*specificity = we can have multiple style targeting an element , wich ever style is more specific will win out(apply)*/
+	body{
+	color:blue;
+}
+	ul{
+	color:green;
+}
+/*type selectors are the least specific*/
+	li{
+	color:orange;
+}
+
+	li 	{
+
+}
+	li+a{
+
+}
+/*class attributes and pseudo-slass selectors will be more specific */
+	.highlight{
+
+		color:yellow;
+}
+	input[type="text"]{
+
+}
+	
+	a:hover
+	input:checkbox
+
+/*ID selectors the most sepcific selector */
+
+	#special{
+	color:pink;
+}

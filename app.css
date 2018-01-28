@@ -1,0 +1,36 @@
+h1{
+	color: red;
+	border: 8px purple solid;
+
+	/*border-color:purple;
+	border-width: 5px;
+	border-style: solid;
+*/
+}
+	/* borders  they work only together and in css have :
+	 width
+	 color
+	 style: solid,dash, px;
+ 	we can rewrite all this on one line of code :
+	 border: 5px purple solid;
+*/
+
+/*<color in css can be 
+ 	Hexadecimal(syntax #FF0000),
+ 	RGB stands for red green and blue with values from 0-225 (syntax: rgb(0 ,25, 0 );) 
+ 	RGBA  like RGB with an additional alpha (transparency) with ranges from 0.0-1.0
+*/
+h4{
+	background: rgb(90,30,60);
+	color:green;
+}
+body{
+	background: pink;
+}
+	/*background: url(https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0170/2130/rrrrateets_wg_pp_03_shop_preview.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;*/
+	/*when we are doing  abackround image we should have a good quality pixell image or one that can be repeatedly in a soft manner */
+
+	/*we can set up colors and img as backgound
+	addd proprieties to the image to repeat or to size it to fit perfectly*/

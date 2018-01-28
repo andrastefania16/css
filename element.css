@@ -1,0 +1,45 @@
+/*selectors we've learned  so far are :*/
+/*element*/
+
+
+	li{ 
+
+	}
+/*class (.)*/ 
+
+	.hello{
+
+	}
+	
+
+/*id(#)*/
+	#name {
+
+	}
+
+/*star selector (*) = applies to every single elemnet on the page */
+
+	*{
+	border:  1px solid green;
+	}
+/*descendant selector takes two or more tags and chain them together*/
+	li a{
+		color : darkred;
+	}
+/*adjacent  selector will let us select elements that come after anptehr elements , like a sibling that comes after a tag not indented etc.*/
+	h4+ul{
+	border: 5px solid purple;
+	}
+
+
+/*attribute selector a way to select elements based on the thei attribute*/
+
+	a[href="http://www.google.com"]{
+	background: yellow;
+	}
+
+/*nth of type= takes a numner and selects every end of the specific element (ex every 5th div, or second p or every even number)*/
+
+	ul:nth-of-type(3){
+	background: orange;
+	}
